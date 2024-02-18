@@ -58,7 +58,7 @@ def main():
     st.set_page_config(page_title="Chat with your document",
                        page_icon="💬", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-    openai.api_key = "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"
+    openai.api_key = ""
     st.title("Chat with your document 💬")
 
     if "messages" not in st.session_state.keys():
